@@ -29,6 +29,12 @@ Some distros like Arch Linux won't install `aspell-en` with `aspell`, and you mu
 $ sudo pacman -S aspell-en
 ```
 
+Running fmtscan...
+No dictionary found.
+```
+$ sudo apt install wamerican
+```
+
 Note: [Cppcheck](https://cppcheck.sourceforge.io/) version must be at least 1.90, otherwise
 it might report errors with false positives. You can get its version by executing `$ cppcheck --version`.
 Check [Developer Info](https://cppcheck.sourceforge.io/devinfo/) for building Cppcheck from source.
